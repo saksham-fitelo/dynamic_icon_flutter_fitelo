@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.chuanpham.dynamic_icon_flutter'
     compileSdkVersion 35
     // conditional for compatibility with older gradle versions
     if (project.android.hasProperty('namespace')) {
